@@ -11,7 +11,7 @@
 **LinkedIn**    |  [Pavel Konyakhin](https://www.linkedin.com/in/solidados/)  
 **Discord**     |  Pavel Konyakhin(@solidados)
 
-### About me ###
+### About ###
 
 Hardworker | Responsible | Entrained | Miscellaneous | Capable Of Learning | Outside-the-box thinking | Creative
 
@@ -43,32 +43,38 @@ Hardworker | Responsible | Entrained | Miscellaneous | Capable Of Learning | Out
 ```
 
 ## Experience ##
-#### 2021 - 2022 ####
-* Backend IT specialist | *hotel's database maintenance*
-* Front End Web Developer | *freelance*
+
+#### 2021 - 2022 ####  
+* Backend IT specialist | *hotel's database maintenance*  
+* Front End Web Developer | *freelance*  
   * [3DscrollPage](https://solidados.github.io/3dScrollPage/)
   * [DarkThemePage](https://solidados.github.io/darkThemeTmp/)
+
 #### 2013 – 2021 ####
-* Private Entrepreneur | *immigration advisor*
-#### 2010 – 2012 ####
-* Logistic engineer | *international multimodal carriages*
+* Private Entrepreneur | *immigration advisor*  
 
-#### 2008 – 2010 ####
+#### 2010 – 2012 ####  
+* Logistic engineer | *international multimodal carriages*  
+
+#### 2008 – 2010 ####  
 * Electrical engineer on projects:  
-  * Volkswagen RUS | *electric works in a new biult painthouse*
-  * Airport Sheremetyevo terminal D | *baggage sorting and distribution systems*
-  * Airport Vnukovo terminal 3 | *baggage sorting and distribution systems*
-
+  * Volkswagen RUS | *electric works in a new biult painthouse*  
+  * Airport Sheremetyevo terminal D | *baggage sorting and distribution systems*  
+  * Airport Vnukovo terminal 3 | *baggage sorting and distribution systems*  
 
 ## Education ##
-#### 2020 ####
-* GeekBrains University | *Front End Development*
-#### 2018 ####
-* Massachusetts Institute of Technology | *logistics & supply chain* | some courses
-#### 2008 ####
-* Moscow state academy of water transport | *logistic engineer* | Master's Degree
-#### 2004 ####
-* Maritime state university named after G.I. Nevelskoi | *logistic engineer* | Bachelor Degree
+
+#### 2020 ####  
+* GeekBrains University | *Front End Development*  
+
+#### 2018 ####  
+* Massachusetts Institute of Technology | *logistics & supply chain* | some courses  
+
+#### 2008 ####  
+* Moscow state academy of water transport | *logistic engineer* | Master's Degree  
+
+#### 2004 ####  
+* Maritime state university named after G.I. Nevelskoi | *logistic engineer* | Bachelor Degree  
 
 ## Languages ##
 
