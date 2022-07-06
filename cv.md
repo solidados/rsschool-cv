@@ -1,5 +1,5 @@
 # Curriculum Vitae #
-![Picture](https://ibb.co/tpc74nB)
+![Picture](img/Photo_trim.png)
 ## Pavel Konyakhin ##
 
 ### Contacts ###
