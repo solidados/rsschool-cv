@@ -1,5 +1,5 @@
 # Curriculum Vitae #
-![Picture](../rsschool-cv/img/ava-1.jpg)
+![Picture](img/ava-1.jpg)
 ## Pavel Konyakhin ##
 
 ### Contacts ###
