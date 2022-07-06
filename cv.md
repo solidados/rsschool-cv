@@ -8,7 +8,7 @@
 **Phone**       |  +374 41 454741  
 **Email**       |  pavel.konyakhin@gmail.com  
 **GitHub**      |  [solidados](https://github.com/solidados)  
-**LinkedIn**    |  [Pavel Konyakhin](https://www.linkedin.com/in/solidados/)
+**LinkedIn**    |  [Pavel Konyakhin](https://www.linkedin.com/in/solidados/)  
 **Discord**     |  Pavel Konyakhin(@solidados)
 
 ### About me ###
@@ -46,8 +46,8 @@ Hardworker | Responsible | Entrained | Miscellaneous | Capable Of Learning | Out
 #### 2021 - 2022 ####
 * Backend IT specialist | *hotel's database maintenance*
 * Front End Web Developer | *freelance*
-  > * [3DscrollPage](https://solidados.github.io/3dScrollPage/)
-  > * [DarkThemePage](https://solidados.github.io/darkThemeTmp/)
+  * [3DscrollPage](https://solidados.github.io/3dScrollPage/)
+  * [DarkThemePage](https://solidados.github.io/darkThemeTmp/)
 #### 2013 – 2021 ####
 * Private Entrepreneur | *immigration advisor*
 #### 2010 – 2012 ####
