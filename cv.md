@@ -7,6 +7,7 @@
 **Email**       |  pavel.konyakhin@gmail.com  
 **GitHub**      |  [solidados](https://github.com/solidados)  
 **LinkedIn**    |  [Pavel Konyakhin](https://www.linkedin.com/in/solidados/)
+**Discord**     |  Pavel Konyakhin(@solidados)
 
 ### About me ###
 
