@@ -52,6 +52,12 @@ body {
 /* ------------------ */
 
 
+/* ===== attribute's selector ===== */
+[class*="__container"] {
+    max-width: 1057px;
+    margin: 0px auto;
+}
+
 .header {
 
 }
