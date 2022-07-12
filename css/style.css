@@ -1,75 +1,18 @@
-* {
+/* ===== styles minimal clear ===== */
+*,*::before,*::after {
     padding: 0;
     margin: 0;
     border: 0;
-}
-
-*,
-*:before,
-*:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-:focus,
-:active {
-    outline: none;
-}
-
-a:focus,
-a:active {
-    outline: none;
-}
-
-nav,
-header,
-footer,
-aside {
-    display: block;
-}
-
-html,
-body {
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-    font-family: inherit;
-}
-
-input::-ms-clear {
-    display: none;
-}
-
-button {
-    cursor: pointer;
-}
-
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
-}
-
-a,
-a:visited {
+a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-ul li {
+ul,
+ol,
+li {
     list-style: none;
 }
 
@@ -84,5 +27,51 @@ h4,
 h5,
 h6 {
     font-size: inherit;
-    font-weight: 400;
+    font-weight: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+body {
+    font-family: Lato;
+    font-size: 12px;
+    color: #242424;
+}
+
+/* ------------------ */
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+/* ------------------ */
+
+
+.header {
+
+}
+.header__container {
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__button {
+}
+.button {
+}
+.button-blue {
 }
