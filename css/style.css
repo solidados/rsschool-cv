@@ -244,7 +244,6 @@ body {
     display: none;
 }
 @media (max-width: 767.98px) {
-    .close-icon-menu,
     .icon-menu {
         display: flex;
         position: relative;
@@ -267,21 +266,27 @@ body {
     }
 
     .close-icon-menu {
-        display: none;
+        flex: 0 0 30px;
+        height: 30px;
+        position: relative;
+        margin: 0 0 0 20px;
     }
 
     .close-icon-menu::before,
     .close-icon-menu::after {
         content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
         background-color: var(--main-txtcolor);
         height: 2px;
-        transform-origin: 0 0;
     }
     .close-icon-menu::before {
-        transform: rotate(32deg);
+        transform: rotate(-45deg);
     }
     .close-icon-menu::after {
-        transform: rotate(-32deg);
+        transform: rotate(45deg);
     }
     .header:target .icon-menu {
         display: none;
