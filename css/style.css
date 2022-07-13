@@ -159,9 +159,9 @@ body {
         background-color: var(--light-txtcolor);
         opacity: var(--button-opacity);
         padding: 90px 15px 30px 15px;
-        transition: left 0.3s ease 0s;
+        transition: 0.3s ease 0s;
     }
-    .menu__body:target {
+    .header:target .menu__body {
         left: 0;
     }
     .menu__list {
@@ -229,10 +229,12 @@ body {
 }
 
 /* ----- burger menu ----- */
+.close-icon-menu,
 .icon-menu {
     display: none;
 }
 @media (max-width: 767.98px) {
+    .close-icon-menu,
     .icon-menu {
         display: flex;
         position: relative;
@@ -252,5 +254,29 @@ body {
     .icon-menu span {
         background-color: var(--main-txtcolor);
         height: 2px;
+    }
+
+    .close-icon-menu {
+        display: none;
+    }
+
+    .close-icon-menu::before,
+    .close-icon-menu::after {
+        content: "";
+        background-color: var(--main-txtcolor);
+        height: 2px;
+        transform-origin: 0 0;
+    }
+    .close-icon-menu::before {
+        transform: rotate(32deg);
+    }
+    .close-icon-menu::after {
+        transform: rotate(-32deg);
+    }
+    .header:target .icon-menu {
+        display: none;
+    }
+    .header:target .close-icon-menu {
+        display: flex;
     }
 }
