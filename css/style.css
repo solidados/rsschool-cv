@@ -36,11 +36,12 @@ html,
 body {
     height: 100%;
     line-height: 1;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: Lato;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* -------- variables ---------- */
@@ -119,7 +120,7 @@ body {
 .header__button {
     position: relative;
     z-index: 5;
-    flex: 0 0 252px;
+    flex: 0 0 200px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -294,4 +295,116 @@ body {
     .header:target .close-icon-menu {
         display: flex;
     }
+}
+
+/* ===== Main Content ===== */
+
+.main {
+}
+.main__container {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+}
+
+/* ===== Block: Aside ===== */
+.aside {
+    padding: 144px 0 0 0;
+}
+.aside__container {
+    width: 350px;
+    flex: 0 1 50%;
+}
+
+/* ----- Section: Intro  ----- */
+.intro {
+}
+.intro__box {
+    padding: 0;
+    margin: 0;
+}
+.title__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro__title {
+    font-size: 30px;
+    line-height: auto;
+    color: inherit;
+}
+.intro__picture {
+    size: 250px;
+    border: 0;
+    padding: 15px 50px 15px 50px;
+}
+.intro__subtitle {
+    font-size: 24px;
+    line-height: auto;
+    color: inherit;
+}
+
+/* ----- Section: Contacts  ----- */
+.contacts {
+}
+.contacts__box {
+    top: 0;
+    left: 0;
+    display: flex;
+    margin-top: 52px;
+}
+.box__content {
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.title-box {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px 10px;
+}
+.title-icon {
+    width: 21px;
+}
+.title-name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 12px;
+}
+.contacts__list {
+    margin-top: 32px;
+}
+.contacts__item {
+    display: flex;
+    align-items: center;
+    padding: 0 0 18px 0;
+}
+.contacts__item > .item-title {
+    width: 70px;
+}
+.item-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.item-text {
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.item-text > a {
+    color: var(--main-txtcolor);
+}
+
+.section__aside-languages {
+}
+.section__article-abobut {
+}
+.section__article-skills {
+}
+.section__article-experience {
+}
+.section__article-education {
+}
+.section__article-code {
 }
