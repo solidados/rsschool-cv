@@ -34,8 +34,7 @@
                     </nav>
                 </div>
                 <div class="header__button">
-                    <a href="docs/CV_frontEndDev_Pavel_Konyakhin.pdf" download=""
-                        class="button button-dark">Download</a>
+                    <a href="docs/CV_Frontend_Pavel_Konyakhin.pdf" download="" class="button button-dark">Download</a>
                     <a href="#open" class="icon-menu"><span></span></a>
                     <a href="#close" class="close-icon-menu"></a>
                 </div>
@@ -49,8 +48,10 @@
 
                 <aside class="aside">
                     <div class="aside__box">
+
+                        <!-- ----- Introduction ----- -->
                         <section class="intro">
-                            <div class="intro__box">
+                            <div class="intro-box">
                                 <div class="title__content">
                                     <h1 class="intro__title">Pavel Konyakhin</h1>
                                     <img class="intro__picture" src="img/avatar3.png" alt="User_Picture">
@@ -113,47 +114,173 @@
                             <ul class="box__list">
                                 <li class="box__list-item">
                                     <p class="item-title">Russian</p>
-                                    <!-- <img class="title-icon" src="img/icons/location.svg" alt="Location icon"> -->
                                     <p class="item-text">Native</p>
+                                    <img class="title-icon" src="img/icons/signal-alt-3.svg" alt="Language level icon">
                                 </li>
                                 <li class="box__list-item">
                                     <p class="item-title">English</p>
-                                    <!-- <img class="title-icon" src="img/icons/phone-call.svg" alt="Phone icon"> -->
                                     <p class="item-text">Pre-Advanced (C1)</p>
+                                    <img class="title-icon" src="img/icons/signal-alt-2.svg" alt="Language level icon">
                                 </li>
                                 <li class="box__list-item">
                                     <p class="item-title">Spanish</p>
-                                    <!-- <img class="title-icon" src="img/icons/email.svg" alt="Email icon"> -->
                                     <p class="item-text">Elementary (A2)</p>
+                                    <img class="title-icon" src="img/icons/signal-alt-1.svg" alt="Language level icon">
                                 </li>
                             </ul>
                         </section>
                     </div>
                 </aside>
 
-                <article>
-                    <section id="about" class="section__article-abobut"></section>
-                    <section id="skills" class="section__article-skills"></section>
-                    <section id="experience" class="section__article-experience"></section>
-                    <section id="education" class="section__article-education"></section>
-                    <section id="code" class="section__article-code">
-                        <!-- ----- CODE ----- -->
-                        <!-- <code>
-                    <pre>
-                        var a = +parseInt(prompt('Enter a'));
-                        var b = +parseInt(prompt('Enter b'));
-                
-                        if (a >= 0 && b >= 0) {
-                            console.log('The difference between two numbers is: ' + (a - b));
-                        } else if (a < 0 && b < 0) {
-                            console.log('The product of two number is: ' + (a * b));
-                        } else {
-                            console.log('The sum of two numbers is: ' + (a + b));
-                        }
-                    </pre>
-                </code> -->
+                <article class="article">
+                    <div class="article__block">
 
-                    </section>
+                        <section id="about" class="about">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="img/icons/about.svg" alt="Information icon">
+                                    <h3 class="title-name">About</h3>
+                                </div>
+                            </div>
+                            <div class="box-text">
+                                <p>Former sailor, electrical engineer, logistic engineer and nowadays
+                                    I&nbsp;am&nbsp;just at&nbsp;the very beginning of&nbsp;my&nbsp;path
+                                    to&nbsp;programming. Within 2021&ndash;2022 I&nbsp;study the Frontend languages and
+                                    find it&nbsp;very exciting when incomprehensible sets of&nbsp;symbols and words for
+                                    someone who is&nbsp;not involved, they take shapes, colors, movements, meanings.
+                                    That is&nbsp;what I&nbsp;call 'The Magic' and I&nbsp;wish
+                                    to&nbsp;be&nbsp;a&nbsp;part of&nbsp;it.</p>
+                            </div>
+                        </section>
+
+                        <section id="skills" class="skills">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="img/icons/skills.svg" alt="Skills icon">
+                                    <h3 class="title-name">Skills</h3>
+                                </div>
+                            </div>
+
+                            <div class="grid-container">
+                                <div class="grid__item">
+                                    <ul class="grid__item-list">
+                                        <li class="list-item">
+                                            <p class="item-text">HTML5, CSS3</p>
+                                        </li>
+                                        <li class="list-item">
+                                            <p class="item-text">JavaScript Basics</p>
+                                        </li>
+                                        <li class="list-item">
+                                            <p class="item-text">SQL</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="grid__item">
+                                    <ul class="grid__item-list">
+                                        <li class="list-item">
+                                            <p class="item-text">VS Code, Sublime Text, Brackets</p>
+                                        </li>
+                                        <li class="list-item">
+                                            <p class="item-text">MySQL, Microsoft SQL Server</p>
+                                        </li>
+                                        <li class="list-item">
+                                            <p class="item-text">Agility CMS, GraphCMS</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="grid__item">
+                                    <ul class="grid__item-list">
+                                        <li class="list-item">
+                                            <p class="item-text">Figma, Photoshop, Illustrator</p>
+                                        </li>
+                                        <li class="list-item">
+                                            <p class="item-text">Git, GitHub, GitKraken, Terminal</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum aspernatur
+                                    sit dolorum laudantium tempora consectetur enim commodi fugiat aliquam eligendi quo
+                                    sint repellendus voluptatem dolore sunt exercitationem ducimus! Porro voluptatibus
+                                    et vero cumque fugit consectetur cupiditate amet, accusamus asperiores vitae sint
+                                    tempora in veritatis fuga exercitationem rem dignissimos quaerat? Excepturi
+                                    molestiae fuga sed porro similique iure esse dolorem nam corrupti. Ex at dolor
+                                    itaque impedit laboriosam veritatis, eveniet numquam obcaecati est quae quis
+                                    ratione. Inventore officia recusandae nostrum sit adipisci itaque, nulla corporis
+                                    cupiditate error quas mollitia fugiat autem a perferendis veritatis repudiandae
+                                    dicta accusantium nobis illum beatae laudantium?</p> -->
+                            </div>
+                        </section>
+
+                        <section id="experience" class="experience">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="img/icons/briefcase.svg" alt="briefcase icon">
+                                    <h3 class="title-name">Experience</h3>
+                                </div>
+                            </div>
+                            <div class="box-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum aspernatur
+                                    sit dolorum laudantium tempora consectetur enim commodi fugiat aliquam eligendi quo
+                                    sint repellendus voluptatem dolore sunt exercitationem ducimus! Porro voluptatibus
+                                    et vero cumque fugit consectetur cupiditate amet, accusamus asperiores vitae sint
+                                    tempora in veritatis fuga exercitationem rem dignissimos quaerat? Excepturi
+                                    molestiae fuga sed porro similique iure esse dolorem nam corrupti. Ex at dolor
+                                    itaque impedit laboriosam veritatis, eveniet numquam obcaecati est quae quis
+                                    ratione. Inventore officia recusandae nostrum sit adipisci itaque, nulla corporis
+                                    cupiditate error quas mollitia fugiat autem a perferendis veritatis repudiandae
+                                    dicta accusantium nobis illum beatae laudantium?</p>
+                            </div>
+                        </section>
+
+                        <section id="education" class="education">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="img/icons/graduation-cap.svg" alt="GraduationCap icon">
+                                    <h3 class="title-name">Education</h3>
+                                </div>
+                            </div>
+                            <div class="box-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum aspernatur
+                                    sit dolorum laudantium tempora consectetur enim commodi fugiat aliquam eligendi quo
+                                    sint repellendus voluptatem dolore sunt exercitationem ducimus! Porro voluptatibus
+                                    et vero cumque fugit consectetur cupiditate amet, accusamus asperiores vitae sint
+                                    tempora in veritatis fuga exercitationem rem dignissimos quaerat? Excepturi
+                                    molestiae fuga sed porro similique iure esse dolorem nam corrupti. Ex at dolor
+                                    itaque impedit laboriosam veritatis, eveniet numquam obcaecati est quae quis
+                                    ratione. Inventore officia recusandae nostrum sit adipisci itaque, nulla corporis
+                                    cupiditate error quas mollitia fugiat autem a perferendis veritatis repudiandae
+                                    dicta accusantium nobis illum beatae laudantium?</p>
+                            </div>
+                        </section>
+
+                        <section id="code" class="code">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="img/icons/code.svg" alt="Code icon">
+                                    <h3 class="title-name">Code</h3>
+                                </div>
+                            </div>
+                            <div class="box-text">
+                                <code>
+<pre>
+var a = +parseInt(prompt('Enter a'));
+var b = +parseInt(prompt('Enter b'));
+
+if (a >= 0 && b >= 0) {
+    console.log('The difference between two numbers is: ' + (a - b));
+} else if (a < 0 && b < 0) {
+    console.log('The product of two number is: ' + (a * b));
+} else {
+    console.log('The sum of two numbers is: ' + (a + b));
+}
+</pre>
+                                    </code>
+                            </div>
+                        </section>
+
+                    </div>
                 </article>
 
             </div>
