@@ -1,3 +1,14 @@
+/* ===== variables ===== */
+:root {
+    /* ----- colors ----- */
+    --main-txtcolor: #2d2d2d;
+    --light-txtcolor: #fcfdfe;
+    --light-linecolor: #d9d9d9;
+    /* ----- opacity ----- */
+    --button-opacity: 0.8;
+    --burger-menu-opacity: 0.95;
+}
+
 /* ===== styles minimal clear ===== */
 *,
 *::before,
@@ -48,23 +59,13 @@ body {
     font-size: 14px;
 }
 
-/* -------- variables ---------- */
-:root {
-    --main-txtcolor: #2d2d2d;
-    --light-txtcolor: #fcfdfe;
-    --button-opacity: 0.8;
-    --burger-menu-opacity: 0.95;
-}
-
-/* ------------------ */
+/* ----- Wrapper ----- */
 .wrapper {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100%;
 }
-
-/* ------------------ */
 
 /* ===== attribute's selector ===== */
 [class*="__container"] {
@@ -374,6 +375,7 @@ body {
     align-items: center;
     width: 320px;
     border-bottom: 1px solid var(--main-txtcolor);
+    margin-bottom: 20px;
 }
 .title-icon {
     width: 21px;
@@ -393,6 +395,11 @@ body {
 }
 .box__list-item > .item-title {
     width: 70px;
+}
+.item-text > a:hover {
+    background-color: var(--main-txtcolor);
+    opacity: var(--button-opacity);
+    color: var(--light-txtcolor);
 }
 .item-title {
     font-weight: 500;
@@ -423,7 +430,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     text-align: justify;
     font-weight: 300;
     font-size: 16px;
@@ -446,4 +453,79 @@ code {
 }
 .card__text > ul {
     list-style-position: inside;
+}
+
+/* ----- Timeline ruler ----- */
+
+/* Timeline Container */
+.timeline {
+    padding: 0 0 0 10px;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+    border-left: 1px solid var(--light-linecolor);
+}
+
+/* Card container */
+.card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding-left: 10px;
+    max-width: 100%;
+}
+
+/* timeline information */
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* timeline title */
+.timeline-title {
+    position: relative;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-txtcolor);
+}
+
+/* timeline year point  */
+.timeline-title::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: var(--light-txtcolor);
+    border-radius: 999px;
+    top: 10px;
+    left: -34px;
+    border: 1px solid var(--light-linecolor);
+}
+.info > .box-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.info .card__text {
+    margin-left: 31px;
+}
+li > a {
+    color: var(--main-txtcolor);
+}
+li > a:hover {
+    background-color: var(--main-txtcolor);
+    opacity: var(--button-opacity);
+    color: var(--light-txtcolor);
+}
+
+pre {
+    padding: 30px;
+    font-family: "Courier New";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--light-txtcolor);
+    background-color: grey;
 }
