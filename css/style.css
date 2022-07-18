@@ -20,7 +20,8 @@
 }
 
 p {
-    width: fit-content;
+    width: auto;
+    overflow-wrap: break-word;
 }
 
 a {
@@ -65,6 +66,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    width: 100%;
 }
 
 /* ===== attribute's selector ===== */
@@ -139,6 +141,7 @@ body {
 }
 .menu__list {
     display: flex;
+    list-style: none;
 }
 .menu__item {
     margin: 0 30px 0 0;
@@ -309,7 +312,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100% !important;
+    height: 100%;
 }
 .main__container {
     display: flex;
@@ -323,8 +326,9 @@ body {
 /* ===== Block: Aside ===== */
 .aside {
     position: relative;
-    width: 350px;
+    min-width: 350px;
     flex: 0 1 50%;
+    float: left;
 }
 
 /* ----- Section: Introduction  ----- */
@@ -421,9 +425,13 @@ body {
 }
 
 /* ===== Block: Article ===== */
+.article {
+    float: right;
+    min-width: 737px;
+}
 
 .article__block {
-    margin-left: 63px;
+    padding-left: 63px;
 }
 .box-text {
     top: 0;
@@ -500,7 +508,7 @@ code {
     background: var(--light-txtcolor);
     border-radius: 999px;
     top: 10px;
-    left: -34px;
+    left: -35px;
     border: 1px solid var(--light-linecolor);
 }
 .info > .box-text {
@@ -528,4 +536,33 @@ pre {
     line-height: 24px;
     color: var(--light-txtcolor);
     background-color: grey;
+}
+
+/* ===== footer ===== */
+
+.footer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background: var(--light-linecolor);
+}
+.footer__container {
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.footer-text {
+    align-self: flex-start;
+}
+.git-logo,
+.rss-logo {
+    height: 55px;
 }
