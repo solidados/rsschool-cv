@@ -98,11 +98,14 @@ body {
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     z-index: 50;
+    background-color: var(--light-txtcolor);
+    opacity: 0.92;
 }
 
 .header__container {
