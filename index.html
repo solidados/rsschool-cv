@@ -1,16 +1,375 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/icons/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,regular,500,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700,800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <title>RSSchool CV</title>
+    <title>Curriculum Vitae</title>
 </head>
 
 <body>
-Page is Under Construction
+    <div class="wrapper">
+
+        <!-- ======== HEADER ======== -->
+        <header id="open" class="header">
+            <div id="close" class="header__container">
+                <a href="#" class="header__logo">
+                    <img src="src/img/icons/favicon.svg" alt="Logo_picture"></a>
+                <div class="header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+                            <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+                            <li class="menu__item"><a href="#experience" class="menu__link">Experience</a></li>
+                            <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
+                            <li class="menu__item"><a href="#code" class="menu__link">Code</a></li>
+                            <li class="menu__item"><a href="#languages" class="menu__link">Languages</a></li>
+                            <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__button">
+                    <a href="src/docs/CV_Frontend_Pavel_Konyakhin.pdf" download="CV_Frontend_Pavel_Konyakhin.pdf"
+                        class="button button-dark">Download</a>
+                    <a href="#open" class="icon-menu"><span></span></a>
+                    <a href="#close" class="close-icon-menu"></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ======== MAIN ======== -->
+        <main class="main">
+            <div class="main__container">
+
+                <aside class="aside">
+                    <div class="aside__box">
+
+                        <!-- ----- Introduction ----- -->
+                        <section class="intro">
+                            <div class="intro-box">
+                                <div class="title__content">
+                                    <h1 class="intro__title">Pavel Konyakhin</h1>
+                                    <img class="intro__picture" src="src/img/avatar3.png" alt="User_Picture">
+                                    <h2 class="intro__subtitle">Frontend Developer</h2>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ----- Contacts ----- -->
+                        <section id="contacts" class="contacts">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/contacts2.svg" alt="Contacts icon">
+                                    <h3 class="title-name">Contacts</h3>
+                                </div>
+                            </div>
+                            <ul class="box__list">
+                                <li class="box__list-item">
+                                    <p class="item-title">Location</p>
+                                    <!-- <img class="title-icon" src="src/img/icons/location.svg" alt="Location icon"> -->
+                                    <p class="item-text">Yerevan, Republic of Armenia</p>
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">Phone</p>
+                                    <!-- <img class="title-icon" src="src/img/icons/phone-call.svg" alt="Phone icon"> -->
+                                    <p class="item-text">+374 41 45 47 41</p>
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">Email</p>
+                                    <!-- <img class="title-icon" src="src/img/icons/email.svg" alt="Email icon"> -->
+                                    <p class="item-text">pavel.konyakhin@gmail.com</p>
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">Discord</p>
+                                    <!-- <img class="title-icon" src="src/img/icons/discord.svg" alt="Discord icon"> -->
+                                    <p class="item-text">Pavel Konyakhin (@solidados)</p>
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">GitHub</p>
+                                    <!-- <img class="title-icon" src="src/img/icons/github.svg" alt="GitHub icon"> -->
+                                    <p class="item-text"><a href="https://github.com/solidados">solidados</a></p>
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">LinkedIn</p>
+                                    <!-- <img class="title-icon" src="src/img/icons/github.svg" alt="linkedIn icon"> -->
+                                    <p class="item-text"><a href="https://www.linkedin.com/in/solidados/">Pavel
+                                            Konyakhin</a></p>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <!-- ----- Languages ----- -->
+                        <section id="languages" class="languages">
+                            <div class="box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/languages.svg" alt="Language icon">
+                                    <h3 class="title-name">Languages</h3>
+                                </div>
+                            </div>
+                            <ul class="box__list">
+                                <li class="box__list-item">
+                                    <p class="item-title">Russian</p>
+                                    <p class="item-text">Native</p>
+                                    <img class="title-icon" src="src/img/icons/signal-alt-3.svg" alt="Language level icon">
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">English</p>
+                                    <p class="item-text">Pre-Advanced (C1)</p>
+                                    <img class="title-icon" src="src/img/icons/signal-alt-2.svg" alt="Language level icon">
+                                </li>
+                                <li class="box__list-item">
+                                    <p class="item-title">Spanish</p>
+                                    <p class="item-text">Elementary (A2)</p>
+                                    <img class="title-icon" src="src/img/icons/signal-alt-1.svg" alt="Language level icon">
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </aside>
+
+                <article class="article">
+                    <div class="article__block">
+
+                        <section id="about" class="about">
+                            <div class="about box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/about.svg" alt="Information icon">
+                                    <h3 class="title-name">About</h3>
+                                </div>
+                            </div>
+                            <div class="box-text">
+                                <p>Former sailor, electrical engineer, logistic engineer and nowadays
+                                    I&nbsp;am&nbsp;just at&nbsp;the very beginning of&nbsp;my&nbsp;path
+                                    to&nbsp;programming. Within 2021&ndash;2022 I&nbsp;study the Frontend languages and
+                                    find it&nbsp;very exciting when incomprehensible sets of&nbsp;symbols and words for
+                                    someone who is&nbsp;not involved, they take shapes, colors, movements, meanings.
+                                    That is&nbsp;what I&nbsp;call 'The Magic' and I&nbsp;wish
+                                    to&nbsp;be&nbsp;a&nbsp;part of&nbsp;it.</p>
+                            </div>
+                        </section>
+
+                        <section id="skills" class="skills">
+                            <div class="skills box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/skills.svg" alt="Skills icon">
+                                    <h3 class="title-name">Skills</h3>
+                                </div>
+                            </div>
+                            <!-- ========== Card__box =========== -->
+                            <div class="box-text card__box">
+                                <div class="card__text">
+                                    <ul>
+                                        <li>HTML5, CSS3, SASS</li>
+                                        <li>JavaScript + React</li>
+                                        <li>WebPack, Gulp</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card__text">
+                                    <ul>
+                                        <li>VS Code, Sublime Text, Brackets</li>
+                                        <li>MySQL, Microsoft SQL Server</li>
+                                        <li>Agility CMS, GraphCMS</li>
+                                    </ul>
+                                </div>
+
+                                <div class="card__text">
+                                    <ul>
+                                        <li>Figma, Photoshop, Illustrator</li>
+                                        <li>Git, GitHub, GitKraken, Terminal</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="experience" class="experience">
+                            <div class="experience box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/briefcase.svg" alt="briefcase icon">
+                                    <h3 class="title-name">Experience</h3>
+                                </div>
+                            </div>
+                            <!-- ===== Timeline ruller ===== -->
+                            <div class="timeline">
+                                <div class="outer">
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2021 - 2022 </h4>
+                                            <div class="box-text">
+                                                <p>Backend IT&nbsp;specialist | <i>hotel`s&nbsp;database maintenance</i>
+                                                </p>
+                                                <p>Frontend Web Developer | <i>freelance:</i></p>
+                                                <div class="info card__text">
+                                                    <ul>
+                                                        <li>
+                                                            <a
+                                                                href="https://solidados.github.io/3dScrollPage">3DscrollPage</a>
+                                                        </li>
+                                                        <li>
+                                                            <a
+                                                                href="https://solidados.github.io/darkThemeTmp/">DarkThemePage</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2013 - 2021</h4>
+                                            <div class="box-text">
+                                                <p>Private Entrepreneur | <i>immigration advisor</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2010 - 2012</h4>
+                                            <div class="box-text">
+                                                <p>Logistic engineer | <i>international multimodal carriages</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2008 - 2010</h4>
+                                            <div class="box-text">
+                                                <p>Electrical engineer on projects:</p>
+                                                <div class="info card__text">
+                                                    <ul>
+                                                        <li>
+                                                            Volkswagen RUS | <i>electric works in a new biult
+                                                                painthouse</i>
+                                                        </li>
+                                                        <li>
+                                                            Airport <strong>Sheremetyevo</strong> Terminal D |
+                                                            <i>baggage
+                                                                sorting and distribution systems</i>
+                                                        </li>
+                                                        <li>
+                                                            Airport <strong>Vnukovo</strong> Terminal 3 | <i>baggage
+                                                                sorting
+                                                                and distribution systems</i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="education" class="education">
+                            <div class="education box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/graduation-cap.svg" alt="GraduationCap icon">
+                                    <h3 class="title-name">Education</h3>
+                                </div>
+                            </div>
+                            <!-- ===== Timeline ruller ===== -->
+                            <div class="timeline">
+                                <div class="outer">
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2020</h4>
+                                            <div class="box-text">
+                                                <p>GeekBrains University | <i>Frontend Development</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2018</h4>
+                                            <div class="box-text">
+                                                <p>Massachusetts Institute of Technology | <i>logistics & supply
+                                                        chain</i> | <i>some courses</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2008</h4>
+                                            <div class="box-text">
+                                                <p>Moscow state academy of water transport | <i>logistic engineer</i> |
+                                                    <i>Master`s Degree</i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="info">
+                                            <h4 class="timeline-title">2004</h4>
+                                            <div class="box-text">
+                                                <p>Maritime state university named after G.I. Nevelskoi | <i>logistic
+                                                        engineer</i> | <i>Bachelor Degree</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="code" class="code">
+                            <div class="code box">
+                                <div class="box__content title-box">
+                                    <img class="title-icon" src="src/img/icons/code.svg" alt="Code icon">
+                                    <h3 class="title-name">Code</h3>
+                                </div>
+                            </div>
+                            <div class="box-text">
+                                <code>
+<pre>
+    function binarySearch(elem, arr) {
+        arr.sort((a, b) => a - b);
+
+        let start = 0,
+            end = arr.length,
+            mid;
+
+        while (start < end) {
+            mid = Math.floor((start + end) / 2);
+            elem <= arr[mid] ? end = mid : start = mid + 1;
+        }
+        return (elem === arr[start] ? start : -1);
+    }
+</pre>
+                                    </code>
+                            </div>
+                        </section>
+
+                    </div>
+                </article>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__item">
+                    <a href="https://github.com/solidados">
+                        <img class="git-logo" src="src/img/icons/github.svg" alt="GitHub logo">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <div class="footer-text">
+                        <p>&copy; 2022 SolidadosWeb</p>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <a href="https://rs.school/js/">
+                        <img class="rss-logo" src="src/img/icons/rs_school_js.svg" alt="RSSchool logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
