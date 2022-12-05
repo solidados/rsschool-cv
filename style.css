@@ -81,6 +81,15 @@ body {
     [class*="__container"] {
         max-width: 970px;
     }
+    .box-text > p {
+        width: 580px;
+    }
+    .box {
+        width: 580px;
+    }
+    .card__box > .card__text:last-child {
+        overflow: hidden;
+    }
 }
 
 /* ===== 992px break point for Tablet ===== */
