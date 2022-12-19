@@ -448,15 +448,15 @@ body {
     /* margin-left: 43px; */
 }
 .box-text {
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
-    /* padding-top: 20px; */
     text-align: justify;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
+}
+.box-text > h3 > span {
+    border-bottom: 1px solid var(--main-txtcolor);
 }
 
 code {
